@@ -1,0 +1,29 @@
+\begin{table}[!t]
+    \centering
+    \small
+    \begin{tabular}{ll|r|rr}
+    \toprule
+    \textbf{Language} & \textbf{Domain} & \dimabsaTrainData{} & \dimabsaTrainActual{} & \dimabsaTrainEval{} \\
+    \midrule
+    \multirow{2}{*}{eng} & Restaurant & 2,284 & 1,827 & 457 \\
+                        & Laptop     & 4,076 & 3,261 & 815 \\
+    \midrule
+    \multirow{2}{*}{jpn} & Hotel      & 1,600 & 1,280 & 320 \\
+                        & Finance    & 1,024 &   819 & 205 \\
+    \midrule
+    rus & Restaurant & 1,240 & 992 & 248 \\
+    \midrule
+    ukr & Restaurant & 1,240 & 992 & 248 \\
+    \midrule
+    tat & Restaurant & 1,240 & 992 & 248 \\
+    \midrule
+    \multirow{3}{*}{zho} & Restaurant & 6,050 & 4,840 & 1,210 \\
+                        & Laptop     & 3,490 & 2,792 & 698 \\
+                        & Finance    & 1,000 &   800 & 200 \\
+    \midrule
+    \textbf{Total} & & \textbf{23,244} & \textbf{18,595} & \textbf{4,649} \\
+    \bottomrule
+    \end{tabular}
+    \caption{Statistics of the total amount of sentences in training part of the official dataset (DimABSA), separately per each language and domain; \dimabsaTrainActual{} and \dimabsaTrainEval{} correspond to \dimabsaTrainData{} train:test split with 80/20 ratio.~\textcolor{red}{[No Restaurant domain for JPN in the official dataset.]}}
+    \label{tab:dataset_stats}
+\end{table}

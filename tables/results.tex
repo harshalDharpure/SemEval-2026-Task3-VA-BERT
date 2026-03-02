@@ -1,0 +1,31 @@
+\begin{table*}[h]
+    \centering
+    \footnotesize
+    \setlength{\tabcolsep}{2.8pt}
+    \renewcommand{\arraystretch}{1.05}
+    \begin{tabular}{l|ccc|c|c|cccc|c|cccc}
+    \toprule
+    \multirow{2}{*}{\textbf{Model}} &
+    \multicolumn{3}{c|}{\textbf{eng}} &
+    \textbf{rus} &
+    \textbf{ukr} &
+    \multicolumn{4}{c|}{\textbf{jpn}} &
+    \textbf{tat} &
+    \multicolumn{4}{c}{\textbf{zho}} \\
+    \cline{2-15}
+    & Rest. & Laptop & all & Rest. & Rest. & Res. & Hotel & Fin. & all & Rest. & Rest. & Laptop & Fin. & all \\
+    \midrule
+    \multicolumn{15}{l}{\dimabsaTrainEval{} (Non-official Split)} \\
+    \midrule
+    Exp1 & 0.81 & 0.87 & 0.84 & 0.84 & 1.01 & -- & 0.48 & 0.61 & 0.54 & 1.29 & 0.47 & 0.61 & 0.33 & 0.47 \\
+    Exp2 & 0.88 & 0.78 & 0.83 & 1.01 & 1.07 & -- & 0.46 & 0.59 & 0.52 & 1.25 & 0.47 & 0.61 & 0.47 & 0.51 \\
+    Exp3 & \textbf{0.59} & \textbf{0.58} & \textbf{0.58} & \textbf{0.47} & \textbf{0.52} & 0.48 & \textbf{0.39} & \textbf{0.38} & \textbf{0.42} & \textbf{0.92} & \textbf{0.43} & 0.62 & \textbf{0.34} & \textbf{0.46} \\
+    \midrule
+    \multicolumn{15}{l}{\dimabsaTest{} (Official Split)} \\
+    \midrule
+    Exp3 & 1.5003 & -- & -- & 1.6515 & 1.7172 & -- & -- & -- & -- & -- & -- & -- & -- & -- \\
+    \bottomrule
+    \end{tabular}
+    \caption{Results (RMSE-AVG $\downarrow$) on \dimabsaTrainEval{} (20\% non-official split) and \dimabsaTest{} (official split) for the XLM-RoBERTa\textsubscript{base} model. Rest.\ = Restaurant. Best per column on TrainEval in bold. Official row: normalized RMSE\textsubscript{VA} (organizers' metric); only eng, rus, ukr submitted.}
+    \label{tab:results}
+\end{table*}

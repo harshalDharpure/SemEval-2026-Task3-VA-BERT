@@ -1,0 +1,35 @@
+{
+  "exp1": {
+    "restaurant": {
+      "rmse": 0.931776057793114,
+      "valence_rmse": null,
+      "arousal_rmse": null,
+      "file": "experiments/exp1_direct_finetune_large_language_specific_ukr/results/finetune_ukr_restaurant_results_20260127_121109.json",
+      "epoch": 8
+    },
+    "laptop": {
+      "rmse": 0.801418744288855,
+      "valence_rmse": null,
+      "arousal_rmse": null,
+      "file": "experiments/exp1_direct_finetune_large_language_specific_eng/results/finetune_eng_laptop_results_20260127_000511.json",
+      "epoch": 2
+    }
+  },
+  "exp2": {},
+  "exp3": {
+    "laptop": {
+      "rmse": 1.3741084854466852,
+      "valence_rmse": null,
+      "arousal_rmse": null,
+      "file": "experiments/exp3_pretrain_finetune_large_language_specific_eng_finetune/results/finetune_eng_laptop_results_20260127_132516.json",
+      "epoch": 10
+    },
+    "restaurant": {
+      "rmse": 1.302799141267005,
+      "valence_rmse": null,
+      "arousal_rmse": null,
+      "file": "experiments/exp3_pretrain_finetune_large_language_specific_eng_finetune/results/finetune_eng_restaurant_results_20260127_134657.json",
+      "epoch": 3
+    }
+  }
+}

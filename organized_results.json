@@ -1,0 +1,335 @@
+{
+  "exp1": {
+    "restaurant": {
+      "base": {
+        "eng": {
+          "rmse": 0.8123002974261158,
+          "rmse_v": null,
+          "rmse_a": null,
+          "epoch": 4,
+          "status": "\u2705 COMPLETE"
+        },
+        "rus": {
+          "rmse": 0.8398875617644299,
+          "rmse_v": null,
+          "rmse_a": null,
+          "epoch": 7,
+          "status": "\u2705 COMPLETE"
+        },
+        "ukr": {
+          "rmse": 1.0074117416514574,
+          "rmse_v": null,
+          "rmse_a": null,
+          "epoch": 8,
+          "status": "\u2705 COMPLETE"
+        },
+        "tat": {
+          "rmse": 1.28607433151542,
+          "rmse_v": null,
+          "rmse_a": null,
+          "epoch": 4,
+          "status": "\u2705 COMPLETE"
+        },
+        "zho": {
+          "rmse": 0.47359627763869205,
+          "rmse_v": null,
+          "rmse_a": null,
+          "epoch": 7,
+          "status": "\u2705 COMPLETE"
+        }
+      },
+      "large": {
+        "eng": {
+          "rmse": 0.8803661551148985,
+          "rmse_v": null,
+          "rmse_a": null,
+          "epoch": 1,
+          "status": "\u2705 COMPLETE"
+        },
+        "rus": {
+          "rmse": 0.904356204433608,
+          "rmse_v": null,
+          "rmse_a": null,
+          "epoch": 3,
+          "status": "\u2705 COMPLETE"
+        },
+        "ukr": {
+          "rmse": 0.931776057793114,
+          "rmse_v": null,
+          "rmse_a": null,
+          "epoch": 8,
+          "status": "\u2705 COMPLETE"
+        },
+        "tat": {
+          "rmse": 1.3905146882873534,
+          "rmse_v": null,
+          "rmse_a": null,
+          "epoch": 1,
+          "status": "\u2705 COMPLETE"
+        },
+        "zho": {
+          "rmse": 0.905671149245323,
+          "rmse_v": null,
+          "rmse_a": null,
+          "epoch": 7,
+          "status": "\u2705 COMPLETE"
+        }
+      }
+    },
+    "laptop": {
+      "base": {
+        "eng": {
+          "rmse": 0.8693459024575028,
+          "rmse_v": null,
+          "rmse_a": null,
+          "epoch": 1,
+          "status": "\u2705 COMPLETE"
+        },
+        "zho": {
+          "rmse": 0.608415225969503,
+          "rmse_v": null,
+          "rmse_a": null,
+          "epoch": 5,
+          "status": "\u2705 COMPLETE"
+        }
+      },
+      "large": {
+        "eng": {
+          "rmse": 0.801418744288855,
+          "rmse_v": null,
+          "rmse_a": null,
+          "epoch": 2,
+          "status": "\u2705 COMPLETE"
+        },
+        "zho": {
+          "rmse": 0.9677222726462393,
+          "rmse_v": null,
+          "rmse_a": null,
+          "epoch": 5,
+          "status": "\u2705 COMPLETE"
+        }
+      }
+    },
+    "finance": {
+      "base": {
+        "jpn": {
+          "rmse": 0.6077843966251503,
+          "rmse_v": null,
+          "rmse_a": null,
+          "epoch": 10,
+          "status": "\u2705 COMPLETE"
+        },
+        "zho": {
+          "rmse": 0.3298793942125864,
+          "rmse_v": null,
+          "rmse_a": null,
+          "epoch": 1,
+          "status": "\u2705 COMPLETE"
+        }
+      },
+      "large": {
+        "jpn": {
+          "rmse": 0.7112936980786038,
+          "rmse_v": null,
+          "rmse_a": null,
+          "epoch": 10,
+          "status": "\u2705 COMPLETE"
+        },
+        "zho": {
+          "rmse": 0.5564430057066219,
+          "rmse_v": null,
+          "rmse_a": null,
+          "epoch": 6,
+          "status": "\u2705 COMPLETE"
+        }
+      }
+    },
+    "hotel": {
+      "base": {
+        "jpn": {
+          "rmse": 0.4769521255431758,
+          "rmse_v": null,
+          "rmse_a": null,
+          "epoch": 8,
+          "status": "\u2705 COMPLETE"
+        }
+      },
+      "large": {
+        "jpn": {
+          "rmse": 0.5704950347666244,
+          "rmse_v": null,
+          "rmse_a": null,
+          "epoch": 2,
+          "status": "\u2705 COMPLETE"
+        }
+      }
+    }
+  },
+  "exp2": {},
+  "exp3": {
+    "laptop": {
+      "base": {
+        "eng": {
+          "rmse": 0.5754511498638422,
+          "rmse_v": null,
+          "rmse_a": null,
+          "epoch": 1,
+          "status": "\u2705 COMPLETE"
+        },
+        "zho": {
+          "rmse": 0.6166038115113917,
+          "rmse_v": 0.7691434555406969,
+          "rmse_a": 0.6108989144181038,
+          "epoch": 5,
+          "status": "\u2705 COMPLETE"
+        }
+      },
+      "large": {
+        "eng": {
+          "rmse": 1.3741084854466852,
+          "rmse_v": null,
+          "rmse_a": null,
+          "epoch": 10,
+          "status": "\u2705 COMPLETE"
+        },
+        "zho": {
+          "rmse": 0.9665122142637181,
+          "rmse_v": 1.2348732832568146,
+          "rmse_a": 0.7282520907380076,
+          "epoch": 3,
+          "status": "\u2705 COMPLETE"
+        }
+      }
+    },
+    "restaurant": {
+      "base": {
+        "eng": {
+          "rmse": 0.5854453119016045,
+          "rmse_v": null,
+          "rmse_a": null,
+          "epoch": 3,
+          "status": "\u2705 COMPLETE"
+        },
+        "rus": {
+          "rmse": 0.4698997016918699,
+          "rmse_v": null,
+          "rmse_a": null,
+          "epoch": 2,
+          "status": "\u2705 COMPLETE"
+        },
+        "ukr": {
+          "rmse": 0.519148306200759,
+          "rmse_v": null,
+          "rmse_a": null,
+          "epoch": 5,
+          "status": "\u2705 COMPLETE"
+        },
+        "tat": {
+          "rmse": 0.9173402737358696,
+          "rmse_v": 1.018199364822715,
+          "rmse_a": 0.8170867745987437,
+          "epoch": 2,
+          "status": "\u2705 COMPLETE"
+        },
+        "zho": {
+          "rmse": 0.4316113774294973,
+          "rmse_v": 0.43637802283516175,
+          "rmse_a": 0.4639757276689476,
+          "epoch": 6,
+          "status": "\u2705 COMPLETE"
+        }
+      },
+      "large": {
+        "eng": {
+          "rmse": 1.302799141267005,
+          "rmse_v": null,
+          "rmse_a": null,
+          "epoch": 3,
+          "status": "\u2705 COMPLETE"
+        },
+        "rus": {
+          "rmse": 1.4269947642801373,
+          "rmse_v": null,
+          "rmse_a": null,
+          "epoch": 1,
+          "status": "\u2705 COMPLETE"
+        },
+        "ukr": {
+          "rmse": 1.4271035294284717,
+          "rmse_v": null,
+          "rmse_a": null,
+          "epoch": 1,
+          "status": "\u2705 COMPLETE"
+        },
+        "tat": {
+          "rmse": 1.4270828258629984,
+          "rmse_v": 1.9056486219734352,
+          "rmse_a": 0.9485170297525614,
+          "epoch": 1,
+          "status": "\u2705 COMPLETE"
+        },
+        "zho": {
+          "rmse": 0.9035759665312446,
+          "rmse_v": 1.2123258255159772,
+          "rmse_a": 0.6576498910023574,
+          "epoch": 7,
+          "status": "\u2705 COMPLETE"
+        }
+      }
+    },
+    "hotel": {
+      "base": {
+        "jpn": {
+          "rmse": 0.38668878506344184,
+          "rmse_v": 0.4954252786195465,
+          "rmse_a": 0.4296022375418002,
+          "epoch": 6,
+          "status": "\u2705 COMPLETE"
+        }
+      },
+      "large": {
+        "jpn": {
+          "rmse": 0.8646526852300408,
+          "rmse_v": 1.1125135617260298,
+          "rmse_a": 0.6339770151269387,
+          "epoch": 7,
+          "status": "\u2705 COMPLETE"
+        }
+      }
+    },
+    "finance": {
+      "base": {
+        "jpn": {
+          "rmse": 0.3807013475031814,
+          "rmse_v": 0.4529777886016655,
+          "rmse_a": 0.36959589240662777,
+          "epoch": 3,
+          "status": "\u2705 COMPLETE"
+        },
+        "zho": {
+          "rmse": 0.34277002404752366,
+          "rmse_v": 0.46312435275441,
+          "rmse_a": 0.33095177720737057,
+          "epoch": 7,
+          "status": "\u2705 COMPLETE"
+        }
+      },
+      "large": {
+        "jpn": {
+          "rmse": 0.8761388433945166,
+          "rmse_v": 1.2766835348839582,
+          "rmse_a": 0.4941406850928389,
+          "epoch": 2,
+          "status": "\u2705 COMPLETE"
+        },
+        "zho": {
+          "rmse": 0.5557102534631051,
+          "rmse_v": 0.7820513935633017,
+          "rmse_a": 0.3915843868724751,
+          "epoch": 8,
+          "status": "\u2705 COMPLETE"
+        }
+      }
+    }
+  }
+}
